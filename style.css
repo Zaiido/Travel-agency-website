@@ -23,6 +23,22 @@ button {
     background-color: #B0DB51 !important;
 }
 
+header button.navbar-toggler {
+    background-color: transparent !important;
+    border: 1px solid white;
+}
+
+header .navbar-toggler-icon {
+    width: inherit;
+    height: inherit;
+}
+
+header .navbar-toggler-icon svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
 nav {
     min-height: 10vh;
 }
@@ -76,17 +92,11 @@ section {
     text-overflow: ellipsis;
 }
 
-.img-container {
-    width: 66%
-}
-
-.text-container {
-    width: 33%;
-}
 
 .carousel {
     background-color: #B0DB51;
 }
+
 
 .carousel h1 {
     font-size: 80px;
