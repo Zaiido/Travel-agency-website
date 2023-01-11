@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Oswald";
+}
+
+
+header {
+    background: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: 80%;
+}
+
+button {
+    background-color: #B0DB51 !important;
+}
+
+nav {
+    min-height: 10vh;
+}
+
+nav>a img {
+    transform: rotateZ('15deg');
+    width: 50px;
+    height: 50px;
+}
+
+svg {
+    vertical-align: unset;
+}
+
+#home {
+    min-height: 90vh;
+}
+
+#home h1 {
+    font-size: 70px;
+}
+
+#home .agency-name {
+    font-size: 150px;
+    opacity: 0.4;
+}
+
+section {
+    min-height: 95vh;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#summer {
+    position: relative;
+}
+
+#summer .background {
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+}
+
+.truncate {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.img-container {
+    width: 66%
+}
+
+.text-container {
+    width: 33%;
+}
+
+.carousel {
+    background-color: #B0DB51;
+}
+
+.carousel h1 {
+    font-size: 80px;
+    margin-top: 10%;
+}
+
+.carousel .carousel-item {
+    height: 80vh;
+}
+
+.testimonial-image {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.testimonial-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+#summer .card {
+    position: relative;
+}
+
+.hot-badge {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    color: white;
+    background-color: rgb(223, 35, 35);
+    padding: 3px 10px;
+    border-radius: 15px;
+    display: none;
+}
